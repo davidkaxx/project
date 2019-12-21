@@ -672,6 +672,11 @@ let product = {
         console.log(this.video);
         
     },
+    setProc: function (param) {
+        this.proc = param;
+        return this.proc;
+        
+    },
 
 
 }
