@@ -571,7 +571,7 @@
 // console.log(obj1 === obj2);
 //19/12
 
-let arr = [23,-5,67,12,45,32,6]
+// let arr = [23,-5,67,12,45,32,6]
 
 // function letOnScreen() {
 //     console.log(arr);
@@ -630,8 +630,51 @@ let arr = [23,-5,67,12,45,32,6]
 
 // update for commit
 
+// DZ6
 
 
+// let warn = {
+//     danger: function(){
+//         alert('Danger!')
+//     },
+//     fire: function(){
+//         alert('Fire!')
+//     },
+// };
 
+// warn.danger();
+// warn.fire();
+
+
+let product = {
+    proc:'i5',
+    motherboard:'MSI',
+    hardDisk:'Seagate',
+    ram:'hunix',
+    video:'Radeon',
+    getProc: function() {
+        console.log(this.proc);
+        
+    },
+    getMotherboard: function() {
+        console.log(this.motherboard);
+        
+    },
+    getHardDisk: function () {
+        console.log(this.hardDisk);
+        
+    },
+    getRam: function () {
+        console.log(this.ram);
+        
+    },
+    getVideo: function () {
+        console.log(this.video);
+        
+    },
+
+
+}
+product.getVideo();
 
 
