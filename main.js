@@ -571,7 +571,6 @@
 // console.log(obj1 === obj2);
 //19/12
 
-// let arr = [23,-5,67,12,45,32,6]
 
 // function letOnScreen() {
 //     console.log(arr);
@@ -646,40 +645,600 @@
 // warn.fire();
 
 
-let product = {
-    proc:'i5',
-    motherboard:'MSI',
-    hardDisk:'Seagate',
-    ram:'hunix',
-    video:'Radeon',
-    getProc: function() {
-        console.log(this.proc);
+// let product = {
+//     proc:'i5',
+//     motherboard:'MSI',
+//     hardDisk:'Seagate',
+//     ram:'hunix',
+//     video:'Radeon',
+//     getProc: function() {
+//         console.log(this.proc);
         
-    },
-    getMotherboard: function() {
-        console.log(this.motherboard);
+//     },
+//     getMotherboard: function() {
+//         console.log(this.motherboard);
         
-    },
-    getHardDisk: function () {
-        console.log(this.hardDisk);
+//     },
+//     getHardDisk: function () {
+//         console.log(this.hardDisk);
         
-    },
-    getRam: function () {
-        console.log(this.ram);
+//     },
+//     getRam: function () {
+//         console.log(this.ram);
         
-    },
-    getVideo: function () {
-        console.log(this.video);
+//     },
+//     getVideo: function () {
+//         console.log(this.video);
         
-    },
-    setProc: function (param) {
-        this.proc = param;
-        return this.proc;
+//     },
+//     setProc: function (param) {
+//         this.proc = param;
+//         return this.proc;
         
-    },
+//     },
 
 
-}
-product.getVideo();
+// }
+// product.getVideo();
 
 
+//21.12
+
+
+// let str = 'I always wanted to be here';
+// let str1 = 'I always hated this place';
+
+// console.log(str.toLocaleUpperCase());
+
+
+// let arr = [23,-5,67,12,45,32,60,90];
+// let arr1 = [];
+
+
+// function moreThanFifty() {
+    
+//  for (let index = 0; index <= arr.length; index++) {
+//    if (arr[index]>50) {
+//     arr1.push(arr[index]);
+
+//          }
+   
+//  }
+//  return console.log(arr1);
+//  }
+//  moreThanFifty();
+
+
+// function allMoreZeroAndPlusTen() {
+//     for (let index = 0; index < arr.length; index++) {
+//         if (arr[index] > 0) {
+//             arr1.push(arr[index]+10);
+//             console.log(arr[index]);
+//         }
+        
+//     }
+// return console.log(arr1);
+// }
+// allMoreZeroAndPlusTen();
+
+
+// let Queue = {
+//     arr:[5,7,8,9,0,12],
+//     showQueue: function () {
+//         console.log(this.arr);
+        
+//     },
+//     setQueue: function (param) {
+    
+//         this.arr.push(param);
+//         console.log(this.arr);
+
+        
+//     },
+//     getQueue: function () {
+//         console.log(this.arr.shift());
+        
+//     }
+
+
+
+
+
+// }
+
+// Queue.showQueue();
+// Queue.setQueue(10);
+// Queue.getQueue();
+
+
+// let math = {
+//     getMin: function (param, param1) {
+// let a = Math.min(param,param1);
+//         return console.log(a);
+        
+//     },
+//     getMax: function (param, param1) {
+//         let a = Math.max(param,param1);
+//                 return console.log(a);},
+//                 getRound: function(param) {
+//                     let a = Math.round(param);
+//                     return console.log(a);
+//                 },
+
+//                 pi: Math.PI
+
+// }
+
+
+// math.getMin(8,5);
+// math.getMax(8,5);
+// math.getRound(2.56);
+// console.log(math.pi);
+
+
+
+
+//// 24.21
+
+
+//   let user = {
+
+//     name: 'Ivan',
+//     randomString: '         dadadadad         ',
+//     gender: 'male',
+//     age: '30',
+//     hair: 'blond',
+//     country: 'Ukraine',
+//     createName: function (param) {
+//         this.name = param;
+        
+//    },
+//     deleteHair: function () {
+//      this.hair = 'bold';
+        
+//     },
+//     showName :function (params) {
+//         console.log(this.name);
+        
+//     },
+//     getName: function () {
+// console.log(this.name);        
+//     },
+//     setName: function (param) {
+//         this.name = param;
+//         console.log(this.name)
+        
+//     },
+//     repeatName: function (param) {
+//         let str = this.name.repeat(param);
+//         console.log(str);
+        
+//     },
+//     coolString: function () {
+//         let str1 = this.randomString.trim();
+//         console.log(this.randomString);
+//     }
+    
+
+// }
+// user.coolString();
+// user.getName();
+// user.setName('PetroPoroshenko');
+// for (const key in user) {
+//     if (user.hasOwnProperty(key)) {
+//         console.log(user[key]);
+        
+//     }
+// }
+
+// function User(name) {
+//     this.name = name;
+//     this.isAdmin = false;
+//    this.array = [2,3,4,5,6];
+    
+// }
+
+// // let user = new User('Vasya');
+// // let user1 = new User('Petro'); 
+// let user2 = new User ('Poroshenko');
+// console.log(user2);
+
+// // console.log(user2);
+
+
+//  let arr = [23,-5,67,12,45,32,60,90];
+//  console.log(arr);
+
+// class User{
+//     constructor(name) {
+//         this.name = name;
+//     }
+//     sayHi() {
+//         alert(this.name);
+//     }
+// }
+
+// let user = new User('Ivan');
+// user.sayHi();
+
+
+
+// let arr = [23,-5,67,12,45,32,60,90];
+
+// function MinMax() {
+    
+//     let arr1 = [(arr.shift()),arr.pop()];
+//     console.log(arr1);
+
+//     let arr2 = arr.toString();
+//     console.log(arr2);
+
+// }
+// MinMax();
+
+
+//// 26.12
+
+
+
+// function User(name) {
+//     this.name = name,
+//     function surName(param) {
+//         param = "Poroshenko";
+//         return name + param;
+        
+//     }
+    
+// }
+
+// let user = new User ('Petro');
+
+
+
+// function UserCreate(name) {
+//     this.name = name,
+//     function surName(param) {
+//         param = "Poroshenko";
+//         return name + param;
+        
+//     }
+    
+// }
+// let User1 = new UserCreate ("Neo");
+
+// Object.setPrototypeOf(User1,user);
+
+// console.log(User1);
+
+
+
+
+// let obj = {
+//     name: "Petro",
+//     surName: "Poroshenko"
+// }
+// let clone = {};
+// for (const key in obj) {
+//     if (obj.hasOwnProperty(key)) {
+//         clone[key] = obj[key];
+        
+//     }
+// }
+
+// let copy = Object.assign(user,obj);
+// console.log(copy);
+
+
+// let user = {
+
+//     name: 'Ivan',
+//     randomString: '         dadadadad         ',
+//     gender: 'male',
+//     age: '30',
+//     hair: 'blond',
+//     country: 'Ukraine',
+//     createName: function (param) {
+//         this.name = param;
+        
+//    },
+//     deleteHair: function () {
+//      this.hair = 'bold';
+        
+//     },
+//     showName :function (params) {
+//         console.log(this.name);
+        
+//     },
+//     getName: function () {
+// console.log(this.name);        
+//     },
+//     setName: function (param) {
+//         this.name = param;
+//         console.log(this.name)
+        
+//     },
+//     repeatName: function (param) {
+//         let str = this.name.repeat(param);
+//         console.log(str);
+        
+//     },
+//     coolString: function () {
+//         let str1 = this.randomString.trim();
+//         console.log(this.randomString);
+//     }
+    
+
+// }
+
+// let man = Object.create(user,{
+//     'id' : 'null'
+// });
+
+// console.log(man);
+
+
+// class Human {
+//     constructor() {
+//         this.head = 1;
+//         this.neck = 1;
+//     }
+//     say() {console.log(this.head);
+//     }
+// }
+
+// let vasya = new Human();
+// console.log(vasya);
+
+
+// class Man extends Human {
+//     constructor() {
+//         // super();
+//         this.gender = 'man';
+//         this.say() }
+//             console.log('Im'+ this.gender);
+//         }
+//     }
+// }
+
+// let vaso = new Man();
+// vaso.say();
+
+
+// class Animal {
+//     constructor() {
+//         this.leg = 2;
+//         this.eyes = 2;
+//     }
+    
+// }
+
+// class Pet extends Animal {
+//     constructor() {
+// this.home = "House";
+// }
+// }
+
+
+//  09.01
+
+
+
+// class CoffeMachine {
+//     #waterAmount = 0;
+
+//     get waterAmount() {
+//         return this.#waterAmount;
+//     }
+//     set waterAmount (value) {
+//        if (value < 0) throw new Error("Отрицательная") 
+//            this.#waterAmount = value;
+//        }
+           
+//        }
+    
+
+
+// let machine = new CoffeMachine();
+// machine.waterAmount = 100;
+// alert(machine.#waterAmount);
+
+
+// let user = {};
+// Object.defineProperty(user, "name", {
+//     value: "Vasya",
+//     writable: false,
+//     configurable: false
+// });
+
+// user.name = "Petro";
+// console.log(user.name);
+
+// class User {
+//     static staticMethod() {
+//         alert(this === User);
+//     }
+// }
+
+
+// User.staticMethod();
+
+// class User {
+//     constructor() {
+//             User.counter++;
+//     }
+
+//     static counter = 0;
+// }
+
+//     let Petro = new User();
+//     let Vaso = new User();
+//     let Ivan = new User();
+
+//     console.log(User.counter);
+
+
+// let name = "John";
+// function showName() {
+//     let name = "Jack";
+//     console.log(name);
+    
+// }
+// console.log(name);
+
+// function Machine() {
+//     let enabled = false;
+  
+//     this.enable = function() {
+//       enabled = true;
+//     };
+  
+//     this.disable = function() {
+//       enabled = false;
+//     };
+//   }
+
+//   function CoffeeMachine(power) {
+//     Machine.call(this); // отнаследовать
+  
+//     this.waterAmount = 0;
+  
+//     this.setWaterAmount = function(amount) {
+//       this.waterAmount = amount;
+//     };
+  
+//   }
+  
+//   let coffeeMachine = new CoffeeMachine(10000);
+//   console.log(coffeeMachine);
+
+
+// let arr = [2423,234234,23455,31,3434,12,41,2,111];
+// console.log(Math.min([123123,123,12,2]));
+// console.log(Math.min.apply(null,arr));
+
+// let obj = {
+//     name:"Marek",
+//     scream:function (param) {
+//         console.log(this.name+param);
+        
+//     }
+// }
+
+// let obj1 = {
+//     name:"Valera",
+//     test:function () {
+//         obj.scream.call(this,100);
+//         obj.scream.apply(this,[100,500]);
+        
+//     }
+// }
+
+// console.log(obj1.test());
+
+// 14.01
+// function sum(a,b) {
+//     return a+b;
+    
+// }
+
+
+// let func = sum.bind(null,10);
+// console.log(sum(2,3));
+
+// class User {
+//     constructor() {
+//             User.counter++;
+//     }
+
+//     static counter = 0;
+// }
+
+//     let Petro = new User();
+//     let Vaso = new User();
+//     let Ivan = new User();
+
+//     console.log(User.counter);
+
+//     let animal = {
+//         type: 'alive',
+//         displayType: function() {
+//             console.log(this.type);
+            
+//         }
+        
+//         };
+        
+//         let animal1 = Object.create(animal);
+//         animal1.type = 'cow';
+//         animal.displayType();
+
+
+// class Car {
+//     constructor(model,year,name){
+//         this.model = model;
+//         this.year = year;
+//         this.name = name;
+//     }
+    
+// };
+
+// let Ford = new Car("asdasd","dasa","asas");
+
+
+// console.log(Ford);
+
+
+// function outside() {
+//     let nu1 = 50;
+//     function inside() {
+//         let nu2 = 10;
+//         console.log(nu1+nu2);
+        
+//     }
+//     return inside;
+    
+// }
+// let x = outside();
+
+
+// let myCounter = (function() {
+//     let privateCounter = 0;
+//     function changeBy(vlu) {
+//       privateCounter += vlu;
+//     }
+//     return {
+//       increment: function() {
+//       changeBy(1);
+//       },
+//      decrement: function() {
+//        changeBy(-1);
+//      },
+//      value: function() {
+//        return privateCounter;
+//     }
+//     };   
+//     })();
+//     alert(myCounter.value()); // 0
+//      myCounter.increment();
+//      myCounter.increment();
+//      alert(myCounter.value()); // 2
+//      myCounter.decrement();
+//      alert(myCounter.value()); // 1
+
+var mySingleton = (function(){
+    let instance;
+
+    
+    function privateMethod(){
+        //...
+    }
+   let privateProperty = 5;
+   return {
+      getInstance: function () {
+        if ( !instance ) {
+          instance = init();
+        }
+        return instance;
+      }
+    }
+  })();
